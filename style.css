@@ -15,25 +15,27 @@ body{
   align-items: center;
   justify-content: center;
   backdrop-filter: blur(5px);
+  padding: 20px;
 }
 
 .apre{
   color: white;
   position: absolute;
-  top: 10vw;
-  left: 15vw;
+  text-align: center;
+  margin-top: 5%;
 }
 
 header{
-  margin-top: 12vw;
-  color: rgb(255, 255, 255);
-  align-items: center;
-  justify-content: space-between;
+  width: 100%;
+  max-width: 1200px;
+  color: white;
   display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
   gap: 20px;
-  margin-bottom: 13vw;
+  margin-bottom: 5% 0;
 }
-
 
 .titulo{
   font-size: 12vw;
@@ -96,6 +98,7 @@ header nav ul li{
 .video-item h2 {
   margin: 10px 0;
   font-size: 18px;
+  
 }
 
 .video-item p {
